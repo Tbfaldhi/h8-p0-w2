@@ -1,3 +1,6 @@
+var peran =''
+var nama = ''
+
 if (peran === '') {
   console.log(' Halo ' + nama + ' ,Pilih peranmu untuk memulai game ');
 } else {
