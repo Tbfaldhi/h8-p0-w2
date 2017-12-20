@@ -1,0 +1,26 @@
+TUGAS 1
+
+TULISKAN dan SIMPAN "Bilangan1"
+TULISKAN dan SIMPAN "Bilangan2"
+HITUNG "Bilangan1" dikali "Bilangan2"
+SIMPAN hasil hitung
+TAMPILKAN hasil hitung
+
+
+TUGAS 2
+TULISKAN "isikalimat"
+BACA "isikalimat"
+IF "isikalimat" sama dengan "Saya Belajar JavaScript!"
+TAMPILKAN "Pasti Bisa!"
+
+
+tugas 3
+
+TULIS dan SIMPAN "Bilangan1"
+TULIS dan SIMPAN "Bilangan2"
+HITUNG "Bilangan1" dibagi 3
+JIKA "Bilangan1" habis dibagi  3
+TAMPILKAN "Bilangan1"
+HITUNG "Bilangan2" ditambah 1
+JIKA "Bilangan2" lebih kecil sama dengan 20 kembali ke HITUNG
+JIKA "Bilangan2" sama dengan "Bilangan3" proses BERHENTI 
