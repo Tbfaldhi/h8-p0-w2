@@ -12,15 +12,22 @@ var form = [
             ['nomor id: ','Nama lengkap: ','TTL: ','hobi: ']
             ]
 
+function dataHandling(){
 for (var i = 0; i<input.length; i++) {
-        for (var j=0; j<form[i].length; j++) {}
-}
+        for (var j=0; j<form[i].length; j++) {
+    }
 
-for (var i=0; i<input.length; i++) {
-    for (var j=0; j<form[i].length; j++) {}
+    for (var i=0; i<form.length; i++) {
+        for (var j=0; j<input[i].length; j++) {
+    }
       console.log(  form[i][0]+input[i][0]);
       console.log(  form[i][1]+input[i][1]);
       console.log(  form[i][2] +input[i][2] +''+ input[i][3]);
       console.log(  form[i][3]+input[i][4]);
 
+
+
+        }
+      }
 }
+dataHandling();
