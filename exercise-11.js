@@ -1,4 +1,4 @@
-var nama = 'MALIK';
+var nama = ',anda';
 var peran = 'Tabib';
 var tahunLahir = 1985;
 var umur = 2017 - tahunLahir;
@@ -14,8 +14,9 @@ console.log('Monster Kode adalah '+ kodeMonster);//mengetahui jenis monster yang
 console.log('')
 
 if (nama === '') {
-    console.log('Selamat datang di Dunia Proxytia');
-    console.log('Halo Kacung');
+    var nama = 'kacung';//ubah nama jadi kacung jika tidak input nama di awal
+    console.log('halo kacung Selamat bantu membantu di Dunia Proxytia');
+    console.log('');
 } else {
     if (peran === '') {
         console.log('Halo ' + nama + ',' + ' Pilih peranmu untuk memulai game!');
@@ -25,17 +26,21 @@ if (nama === '') {
             console.log(
                 'Halo ' + peran + ' ' + nama + ', kamu dapat menyerang dengan senjatamu!'
             );
+            console.log('');
         } else {
             if (peran === 'Tabib') {
                 console.log('Selamat datang di Dunia Proxytia, ' + nama);
                 console.log(
                     'Halo ' + peran + ' ' + nama + ',' + ' kamu akan membantu temanmu yang terluka.'
                 );
+                console.log('');
             } else {
                 if (peran === 'Penyihir') {
                     console.log('Selamat datang di Dunia Proxytia, ' + nama);
                     console.log(
                         'Halo ' + peran + ' ' + nama + ', ciptakan keajaiban yang membantu kemenanganmu!');
+                console.log('')
+
                 }
             }
         }
