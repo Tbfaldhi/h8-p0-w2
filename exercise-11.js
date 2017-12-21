@@ -15,7 +15,7 @@ console.log('')
 
 if (nama === '') {
     var nama = 'kacung';//ubah nama jadi kacung jika tidak input nama di awal
-    console.log('halo kacung Selamat bantu membantu di Dunia Proxytia');
+    console.log('halo' + nama+ ' Selamat bantu membantu di Dunia Proxytia');
     console.log('');
 } else {
     if (peran === '') {
