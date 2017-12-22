@@ -3,12 +3,12 @@ function dataHandling2(){
 
 //data.splice
 var input =   ["0001", "Roman Alamsyah", "Bandar Lampung", "21/05/1989", "Membaca " ] ;
-input.splice(4, 2, "Pria","SMA Internasional Metro");
+
+input.splice(1, 4, "Roman Alamsyah Elsharawy", "Provinsi Bandar Lampung", "21/05/1989", "Pria", "SMA Internasional Metro");
 
 console.log(input);
 
-//data split  and switch
-
+//data split
 var tgl = input[3];
 var bulan = tgl.split("/");
 switch (bulan[1]) {
@@ -27,7 +27,7 @@ switch (bulan[1]) {
       default: {console.log('input bulan anda ajaib');}
 }
 
-//DESCENDING tanggal
+//DESCENDING
 
 bulan.sort(function(value1, value2, value3){
 return value1<value3<value2
@@ -35,11 +35,11 @@ return value1<value3<value2
 });
 console.log(bulan);
 
-// JOIN dengan -
+// JOIN -
 var joinarray = bulan.join([separator = '-']);
 console.log(joinarray)
 
-//membatasi string 15
+//string = 15
 
 var string = String(input[1]);
 var batas15 = string.slice(0, 15);
