@@ -1,7 +1,7 @@
 var Mobil1 = 'Sébastien Loeb';
 var Mobil2 = 'Tommi Mäkinen';
-var spekmobil1 =[ 'mesin menggunakan turbo charge', 'ban pirelli', 'citroen C4 WRC'];
-var spekmobil2 = ['mesin menggunakan NOS', 'ban bridgesstone', 'Misubishi Lancer evo XIII'];
+var spekmobil1 =[ ' turbo charge', 'ban pirelli', 'citroen C4 WRC'];
+var spekmobil2 = [' NOS', 'ban bridgesstone', 'Misubishi Lancer evo XIII'];
 
 for(var angka = 1; angka <= 100; angka++) {
   console.log('LAP KE ' + angka);
@@ -43,4 +43,4 @@ function kecepatan1(kecepatanMobil1){
 function kecepatan2(kecepatanMobil2){
   kecepatanMobil2=Math.floor(Math.random() * ((100-2)+1) + 80);
   return(kecepatanMobil2);
-} 
+}
